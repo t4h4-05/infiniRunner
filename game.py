@@ -112,7 +112,7 @@ while running:
     # Update platforms and distance
     distance += scroll_speed
     extra_platforms = int(distance // 1000)  # Add a platform every 1000 pixels
-    desired_platform_count =  extra_platforms
+    desired_platform_count = extra_platforms
     
     # Update platforms
     for platform in platforms:
